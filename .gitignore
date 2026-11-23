@@ -3,3 +3,5 @@ __pycache__/
 *.log
 *.out
 *.synctex.gz
+
+/source/cv/Qicheng_Zeng_CV.tex
