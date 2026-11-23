@@ -98,7 +98,10 @@ for item in DATA:
     elif kind == 'sub':
         tex.append(r'\vspace{-2pt}{\fontsize{10}{12}\selectfont\entry{' + rich_tex(value) + '}{' + tex_escape(item.get('right', '')) + '}}')
         doc.append(para(value, 'Sub', tail='<w:r><w:tab/></w:r>' + runs(escape(item.get('right', '')))))
-    elif kind in ('pub', 'presentation'):
+    elif kind == 'presentation':
+        tex.append(r'{\fontsize{10.5}{12}\selectfont\setlength{\parskip}{2pt}\hangindent=12pt\hangafter=1 ' + rich_tex(value) + r'\par}')
+        doc.append(para(value, 'Presentation'))
+    elif kind == 'pub':
         tex.append(r'{\hangindent=12pt\hangafter=1 ' + rich_tex(value) + r'\par}')
         doc.append(para(value, 'Citation'))
     else:
@@ -119,6 +122,7 @@ styles = f'''<w:styles xmlns:w="{W}">
 <w:style w:type="paragraph" w:styleId="Row"><w:name w:val="Row"/><w:basedOn w:val="Normal"/><w:pPr><w:keepLines/><w:tabs><w:tab w:val="right" w:pos="10656"/></w:tabs><w:spacing w:after="60"/></w:pPr></w:style>
 <w:style w:type="paragraph" w:styleId="Sub"><w:name w:val="Sub"/><w:basedOn w:val="Row"/><w:pPr><w:spacing w:after="60" w:line="240" w:lineRule="exact"/></w:pPr><w:rPr><w:sz w:val="20"/></w:rPr></w:style>
 <w:style w:type="paragraph" w:styleId="Citation"><w:name w:val="Citation"/><w:basedOn w:val="Normal"/><w:pPr><w:keepLines/><w:ind w:left="240" w:hanging="240"/></w:pPr></w:style>
+<w:style w:type="paragraph" w:styleId="Presentation"><w:name w:val="Presentation"/><w:basedOn w:val="Citation"/><w:pPr><w:spacing w:after="40" w:line="240" w:lineRule="exact"/></w:pPr><w:rPr><w:sz w:val="21"/></w:rPr></w:style>
 </w:styles>'''
 section = '<w:sectPr><w:footerReference w:type="default" r:id="rFooter"/><w:pgSz w:w="12240" w:h="15840"/><w:pgMar w:top="691" w:right="792" w:bottom="720" w:left="792" w:header="288" w:footer="360"/></w:sectPr>'
 footer = f'<w:ftr xmlns:w="{W}"><w:p><w:pPr><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:sz w:val="16"/><w:color w:val="666666"/></w:rPr><w:t>Qicheng Zeng · Curriculum Vitae · Updated November 2026     </w:t></w:r><w:fldSimple w:instr="PAGE"><w:r><w:t>1</w:t></w:r></w:fldSimple><w:r><w:t>/2</w:t></w:r></w:p></w:ftr>'

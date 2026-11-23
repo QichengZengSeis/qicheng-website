@@ -1,0 +1,280 @@
+[
+  {
+    "kind": "name",
+    "text": "QICHENG ZENG"
+  },
+  {
+    "kind": "contact",
+    "text": "Postdoctoral Research Associate · Earth, Environmental and Planetary Sciences · Rice University"
+  },
+  {
+    "kind": "contact",
+    "text": "208 Keith-Wiess Geology Lab, 6100 Main St., Houston, TX · <a href=\"mailto:qz58@rice.edu\">qz58@rice.edu</a>"
+  },
+  {
+    "kind": "contact",
+    "text": "<a href=\"https://orcid.org/0000-0001-6937-7875\">ORCID 0000-0001-6937-7875</a> · <a href=\"https://scholar.google.com/citations?hl=en&amp;oi=ao&amp;user=TfB7z8sAAAAJ\">Google Scholar</a> · <a href=\"https://sites.google.com/view/qichengzeng/\">Website</a>"
+  },
+  {
+    "kind": "section",
+    "text": "Research interests"
+  },
+  {
+    "kind": "text",
+    "text": "My research uses seismology to investigate subsurface structure, surface processes, and changes in the physical properties of geological materials. I combine field deployments of dense nodal arrays with analysis of ambient seismic noise to extract information about seismic sources and the structure through which waves propagate. My approach integrates spatial, temporal, and spectral analysis of continuous waveforms, seismic interferometry to retrieve surface-wave arrivals and scattered coda waves, numerical simulations of wavefield propagation, and development of advanced tomography methods to improve resolution of subsurface heterogeneity. These approaches address questions about connectivity among volcanic magma bodies, sedimentary basin structure, waterfall dynamics and associated seismic signals, and the evolution of material properties during early diagenesis and in response to thermoelastic and tidal strains."
+  },
+  {
+    "kind": "section",
+    "text": "Employment"
+  },
+  {
+    "kind": "row",
+    "text": "<b>Rice University — Postdoctoral Research Associate</b>",
+    "right": "Houston, TX"
+  },
+  {
+    "kind": "sub",
+    "text": "Earth, Environmental and Planetary Sciences; Advisor: Dr. Brandon Schmandt",
+    "right": "Aug 2025–present"
+  },
+  {
+    "kind": "section",
+    "text": "Education"
+  },
+  {
+    "kind": "row",
+    "text": "<b>University of Utah — Ph.D., Seismology</b>",
+    "right": "Salt Lake City, UT"
+  },
+  {
+    "kind": "sub",
+    "text": "Advisor: Dr. Fan-Chi Lin",
+    "right": "Aug 2020–Jul 2025"
+  },
+  {
+    "kind": "row",
+    "text": "<b>Purdue University — M.S., Geophysics</b>",
+    "right": "West Lafayette, IN"
+  },
+  {
+    "kind": "sub",
+    "text": "Advisor: Dr. Robert L. Nowack; Computational Science &amp; Engineering specialization",
+    "right": "Aug 2018–May 2020"
+  },
+  {
+    "kind": "row",
+    "text": "<b>University of Oxford — Visiting Student, Earth Sciences</b>",
+    "right": "2016–2017"
+  },
+  {
+    "kind": "sub",
+    "text": "Oxford, United Kingdom",
+    "right": ""
+  },
+  {
+    "kind": "row",
+    "text": "<b>Nanjing University — B.S., Geology</b>",
+    "right": "Nanjing, China"
+  },
+  {
+    "kind": "sub",
+    "text": "Advisor: Dr. Mingjie Xu",
+    "right": "Sep 2014–Jul 2018"
+  },
+  {
+    "kind": "section",
+    "text": "Peer-reviewed publications"
+  },
+  {
+    "kind": "pub",
+    "text": "<strong>Zeng, Q.</strong>, Schaible, L. P., Schmandt, B., Farrell, J., Lin, F.-C., Tsai, V. C., &amp; Koper, K. D. (in press). Seasonal ice breakup increases the seismically measured force of waterfalls. <em>Science Advances</em>."
+  },
+  {
+    "kind": "pub",
+    "text": "<strong>Zeng, Q.</strong>, Lin, F.-C., &amp; Tsai, V. C. (2026). Triple-difference surface-wave traveltime adjoint tomography. <em>Geophysical Journal International</em>, 244(3), ggaf524. <a href=\"https://doi.org/10.1093/gji/ggaf524\">DOI</a>"
+  },
+  {
+    "kind": "pub",
+    "text": "Feng, K.-F., Lin, F.-C., Warix, S., Brooks, P. D., <strong>Zeng, Q.</strong>, &amp; van Dam, T. (2026). Seismic velocity variations illustrate hydrological and ecohydrological processes in a mountain watershed. <em>Geophysical Research Letters</em>, 53, e2025GL121378. <a href=\"https://doi.org/10.1029/2025GL121378\">DOI</a>"
+  },
+  {
+    "kind": "pub",
+    "text": "Hutchings, S. J., Koper, K. D., Burlacu, R., <strong>Zeng, Q.</strong>, Lin, F.-C., &amp; Zandt, G. (2025). Upper mantle earthquakes along the edge of the Wyoming Craton. <em>Geophysical Research Letters</em>, 52, e2024GL114073. <a href=\"https://doi.org/10.1029/2024GL114073\">DOI</a>"
+  },
+  {
+    "kind": "pub",
+    "text": "<strong>Zeng, Q.</strong>, Lin, F.-C., &amp; Tsai, V. C. (2024). Spurious Rayleigh-wave apparent anisotropy near major structural boundaries: a numerical and theoretical investigation. <em>Geophysical Journal International</em>, 239(2), 901–913. <a href=\"https://doi.org/10.1093/gji/ggae305\">DOI</a>"
+  },
+  {
+    "kind": "pub",
+    "text": "<strong>Zeng, Q.</strong>, Lin, F.-C., &amp; Allam, A. A. (2022). 3D shear wave velocity model of Salt Lake Valley via Rayleigh wave ellipticity across a temporary geophone array. <em>The Seismic Record</em>, 2(2), 127–136. <a href=\"https://doi.org/10.1785/0320220016\">DOI</a>"
+  },
+  {
+    "kind": "pub",
+    "text": "<strong>Zeng, Q.</strong> &amp; Nowack, R. L. (2021). Analysis of local seismic events near a Large-N array for Moho reflections. <em>Seismological Research Letters</em>, 92(1), 408–420. <a href=\"https://doi.org/10.1785/0220200087\">DOI</a>"
+  },
+  {
+    "kind": "section",
+    "text": "Dataset"
+  },
+  {
+    "kind": "pub",
+    "text": "<b>Zeng, Q.</b> &amp; Lin, F.-C. (2023). Groundwater monitoring in Northern Utah (GNU) from one-year nodal deployment [Data set]. International Federation of Digital Seismograph Networks. <a href=\"https://doi.org/10.7914/sxpj-9z48\">DOI</a>"
+  },
+  {
+    "kind": "break",
+    "text": ""
+  },
+  {
+    "kind": "section",
+    "text": "Selected presentations"
+  },
+  {
+    "kind": "presentation",
+    "text": "<b>Zeng, Q.</b>, Lin, F.-C., &amp; Tsai, V. C. (2023). Apparent Rayleigh-wave anisotropy at lithospheric boundaries: A numerical and theoretical study. AGU Fall Meeting 2023."
+  },
+  {
+    "kind": "presentation",
+    "text": "<b>Zeng, Q.</b> &amp; Lin, F.-C. (2022). Apparent Rayleigh-wave anisotropy at lateral lithospheric boundaries due to interference of incident and reflected waves: A numerical and theoretical investigation. AGU Fall Meeting 2022."
+  },
+  {
+    "kind": "presentation",
+    "text": "<b>Zeng, Q.</b>, Lin, F.-C., &amp; Allam, A. A. (2021). Investigating the 3D basin structure of Salt Lake Valley using surface waves recorded by the Magna aftershock nodal array. AGU Fall Meeting 2021, S35B-0217."
+  },
+  {
+    "kind": "presentation",
+    "text": "Weaver, H., Armstrong, A., Babendreier, C., Huff, O., <b>Zeng, Q.</b>, Martinez, C., Ferguson, J. F., Kelley, S., &amp; Lumley, D. E. (2019). Geophysical investigation of the northwestern Valles Caldera, New Mexico. AGU Fall Meeting 2019, MR51C-0065."
+  },
+  {
+    "kind": "presentation",
+    "text": "<b>Zeng, Q.</b> &amp; Nowack, R. L. (2019). Crustal structure from correlation analysis of the coda of local seismicity beneath a Large-N array. AGU Fall Meeting 2019."
+  },
+  {
+    "kind": "section",
+    "text": "Professional service"
+  },
+  {
+    "kind": "text",
+    "text": "<b>Journal reviewer:</b> Geophysical Journal International; Journal of Geophysical Research: Solid Earth; Geophysical Research Letters; Seismological Research Letters; Frontiers in Earth Science; Scientific Reports; Terrestrial, Atmospheric and Oceanic Sciences (TAO)."
+  },
+  {
+    "kind": "section",
+    "text": "Awards & research support"
+  },
+  {
+    "kind": "row",
+    "text": "Cooper-Hansen Graduate Fellowship, University of Utah — $14,000",
+    "right": "2025"
+  },
+  {
+    "kind": "row",
+    "text": "NSF Geothermal INTERN grant — $20,000",
+    "right": "2024"
+  },
+  {
+    "kind": "row",
+    "text": "David S. &amp; Inga M. Chapman Fund — $1,500",
+    "right": "Jun 2024"
+  },
+  {
+    "kind": "row",
+    "text": "Global Change &amp; Sustainability Center Research Award — $3,000",
+    "right": "Oct 2023"
+  },
+  {
+    "kind": "row",
+    "text": "NSF INTERN grant — $20,000",
+    "right": "2023"
+  },
+  {
+    "kind": "row",
+    "text": "Cooper-Hansen Fellowship, University of Utah — $10,000",
+    "right": "2020"
+  },
+  {
+    "kind": "row",
+    "text": "Cedric J. Newby Award, Purdue University",
+    "right": "2019"
+  },
+  {
+    "kind": "row",
+    "text": "Geodata Science Program Award, Purdue University",
+    "right": "2019"
+  },
+  {
+    "kind": "row",
+    "text": "First Prize of People’s Scholarship, Nanjing University",
+    "right": "2016"
+  },
+  {
+    "kind": "row",
+    "text": "RunTian Scholarship, Nanjing University",
+    "right": "2016"
+  },
+  {
+    "kind": "section",
+    "text": "Teaching experience"
+  },
+  {
+    "kind": "row",
+    "text": "Guest Lecturer, EEPS 555: Introduction to Seismology — Rice University",
+    "right": "Fall 2026"
+  },
+  {
+    "kind": "row",
+    "text": "Teaching Assistant, Wasatch in the Field — University of Utah",
+    "right": "Fall 2022"
+  },
+  {
+    "kind": "section",
+    "text": "Field experience"
+  },
+  {
+    "kind": "row",
+    "text": "Crater Lake nodal deployment, Oregon",
+    "right": "Aug 2026"
+  },
+  {
+    "kind": "row",
+    "text": "Mt. Rainier nodal deployment, Washington",
+    "right": "Aug 2025"
+  },
+  {
+    "kind": "row",
+    "text": "Groundwater monitoring nodal deployment, Salt Lake City, Utah",
+    "right": "May 2023–May 2024"
+  },
+  {
+    "kind": "row",
+    "text": "Meadow geothermal-site nodal deployment, Utah",
+    "right": "Nov 2023"
+  },
+  {
+    "kind": "row",
+    "text": "Yellowstone array nodal deployment, Wyoming",
+    "right": "Nov 2021"
+  },
+  {
+    "kind": "row",
+    "text": "Autocorrelation seismic array, West Lafayette, Indiana",
+    "right": "Aug 2019"
+  },
+  {
+    "kind": "section",
+    "text": "Internships"
+  },
+  {
+    "kind": "row",
+    "text": "Zanskar Geothermal &amp; Minerals, Inc. — Summer Internship, USA",
+    "right": "May–Aug 2024"
+  },
+  {
+    "kind": "row",
+    "text": "Lawrence Livermore National Laboratory — Summer Internship, USA",
+    "right": "May–Aug 2023"
+  },
+  {
+    "kind": "sub",
+    "text": "Advisor: Arthur J. Rodgers"
+  }
+]
