@@ -114,16 +114,16 @@
     "text": "<strong>Zeng, Q.</strong> &amp; Nowack, R. L. (2021). Analysis of local seismic events near a Large-N array for Moho reflections. <em>Seismological Research Letters</em>, 92(1), 408–420. <a href=\"https://doi.org/10.1785/0220200087\">DOI</a>"
   },
   {
-    "kind": "break",
-    "text": ""
-  },
-  {
     "kind": "section",
     "text": "Dataset"
   },
   {
     "kind": "pub",
     "text": "<b>Zeng, Q.</b> &amp; Lin, F.-C. (2023). Groundwater monitoring in Northern Utah (GNU) from one-year nodal deployment [Data set]. International Federation of Digital Seismograph Networks. <a href=\"https://doi.org/10.7914/sxpj-9z48\">DOI</a>"
+  },
+  {
+    "kind": "break",
+    "text": ""
   },
   {
     "kind": "section",
@@ -193,12 +193,22 @@
   },
   {
     "kind": "row",
-    "text": "Cedric J. Newby Award; Geodata Science Program Award, Purdue University",
+    "text": "Cedric J. Newby Award, Purdue University",
     "right": "2019"
   },
   {
     "kind": "row",
-    "text": "First Prize of People’s Scholarship; RunTian Scholarship, Nanjing University",
+    "text": "Geodata Science Program Award, Purdue University",
+    "right": "2019"
+  },
+  {
+    "kind": "row",
+    "text": "First Prize of People’s Scholarship, Nanjing University",
+    "right": "2016"
+  },
+  {
+    "kind": "row",
+    "text": "RunTian Scholarship, Nanjing University",
     "right": "2016"
   },
   {
@@ -207,12 +217,8 @@
   },
   {
     "kind": "row",
-    "text": "<b>Guest Lecturer, EEPS 555: Introduction to Seismology — Rice University</b>",
+    "text": "Guest Lecturer, EEPS 555: Introduction to Seismology — Rice University",
     "right": "Fall 2026"
-  },
-  {
-    "kind": "sub",
-    "text": "Delivered one class session."
   },
   {
     "kind": "row",

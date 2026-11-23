@@ -69,11 +69,11 @@ tex = [r'''\documentclass[10pt,letterpaper]{article}
 \hypersetup{colorlinks=true,urlcolor=navy,pdftitle={Qicheng Zeng - Curriculum Vitae},pdfauthor={Qicheng Zeng}}
 \pagestyle{fancy}\fancyhf{}\renewcommand{\headrulewidth}{0pt}
 \fancyfoot[C]{\fontsize{8}{9}\selectfont\color{gray}Qicheng Zeng · Curriculum Vitae · Updated November 2026\quad\thepage/2}
-\setlength{\parindent}{0pt}\setlength{\parskip}{3pt}
-\newcommand{\cvsection}[1]{\par\vspace{6pt}{\color{navy}\bfseries\fontsize{11}{12}\selectfont #1}\par\nobreak\vspace{2pt}{\color{navy}\hrule height 0.4pt}\nobreak\vspace{4pt}}
+\setlength{\parindent}{0pt}\setlength{\parskip}{4pt}
+\newcommand{\cvsection}[1]{\par\vspace{8pt}{\color{navy}\bfseries\fontsize{11}{12}\selectfont #1}\par\nobreak\vspace{2pt}{\color{navy}\hrule height 0.4pt}\nobreak\vspace{4pt}}
 \newcommand{\entry}[2]{\noindent #1\hfill #2\par}
 \begin{document}
-\fontsize{10.5}{12}\selectfont
+\fontsize{11}{13}\selectfont
 ''']
 doc = []
 for item in DATA:
@@ -94,11 +94,14 @@ for item in DATA:
         tex.append(r'\entry{' + rich_tex(value) + '}{' + tex_escape(item.get('right', '')) + '}')
         doc.append(para(value, 'Row', tail='<w:r><w:tab/></w:r>' + runs(escape(item.get('right', '')))))
     elif kind == 'sub':
-        tex.append(r'\vspace{-3pt}{\fontsize{9.5}{11}\selectfont\entry{' + rich_tex(value) + '}{' + tex_escape(item.get('right', '')) + '}}')
+        tex.append(r'\vspace{-2pt}{\fontsize{10}{12}\selectfont\entry{' + rich_tex(value) + '}{' + tex_escape(item.get('right', '')) + '}}')
+        tex.append(r'\vspace{3pt}')
         doc.append(para(value, 'Sub', tail='<w:r><w:tab/></w:r>' + runs(escape(item.get('right', '')))))
     elif kind in ('pub', 'presentation'):
         tex.append(r'{\hangindent=12pt\hangafter=1 ' + rich_tex(value) + r'\par}')
-        doc.append(para(value, 'Citation'))
+        if kind == 'pub':
+            tex.append(r'\vspace{4pt}')
+        doc.append(para(value, 'Citation', extra='<w:spacing w:after="160"/>' if kind == 'pub' else ''))
     else:
         tex.append(rich_tex(value) + r'\par')
         doc.append(para(value))
@@ -109,13 +112,13 @@ W = 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'
 R = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships'
 declaration = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
 styles = f'''<w:styles xmlns:w="{W}">
-<w:docDefaults><w:rPrDefault><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/><w:sz w:val="21"/><w:color w:val="18212B"/></w:rPr></w:rPrDefault><w:pPrDefault><w:pPr><w:spacing w:after="60" w:line="240" w:lineRule="exact"/><w:widowControl/></w:pPr></w:pPrDefault></w:docDefaults>
+<w:docDefaults><w:rPrDefault><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/><w:sz w:val="22"/><w:color w:val="18212B"/></w:rPr></w:rPrDefault><w:pPrDefault><w:pPr><w:spacing w:after="80" w:line="260" w:lineRule="exact"/><w:widowControl/></w:pPr></w:pPrDefault></w:docDefaults>
 <w:style w:type="paragraph" w:default="1" w:styleId="Normal"><w:name w:val="Normal"/></w:style>
 <w:style w:type="paragraph" w:styleId="Name"><w:name w:val="Name"/><w:basedOn w:val="Normal"/><w:pPr><w:keepNext/><w:jc w:val="center"/><w:spacing w:after="60" w:line="440" w:lineRule="exact"/></w:pPr><w:rPr><w:b/><w:color w:val="{NAVY}"/><w:sz w:val="38"/></w:rPr></w:style>
 <w:style w:type="paragraph" w:styleId="Contact"><w:name w:val="Contact"/><w:basedOn w:val="Normal"/><w:pPr><w:keepNext/><w:jc w:val="center"/><w:spacing w:after="0" w:line="210" w:lineRule="exact"/></w:pPr><w:rPr><w:sz w:val="18"/></w:rPr></w:style>
-<w:style w:type="paragraph" w:styleId="Heading1"><w:name w:val="heading 1"/><w:basedOn w:val="Normal"/><w:pPr><w:keepNext/><w:keepLines/><w:spacing w:before="120" w:after="80" w:line="240" w:lineRule="exact"/><w:pBdr><w:bottom w:val="single" w:sz="3" w:space="2" w:color="{NAVY}"/></w:pBdr><w:outlineLvl w:val="0"/></w:pPr><w:rPr><w:b/><w:color w:val="{NAVY}"/><w:sz w:val="22"/></w:rPr></w:style>
-<w:style w:type="paragraph" w:styleId="Row"><w:name w:val="Row"/><w:basedOn w:val="Normal"/><w:pPr><w:keepLines/><w:tabs><w:tab w:val="right" w:pos="10656"/></w:tabs><w:spacing w:after="20"/></w:pPr></w:style>
-<w:style w:type="paragraph" w:styleId="Sub"><w:name w:val="Sub"/><w:basedOn w:val="Row"/><w:pPr><w:spacing w:after="60" w:line="220" w:lineRule="exact"/></w:pPr><w:rPr><w:sz w:val="19"/></w:rPr></w:style>
+<w:style w:type="paragraph" w:styleId="Heading1"><w:name w:val="heading 1"/><w:basedOn w:val="Normal"/><w:pPr><w:keepNext/><w:keepLines/><w:spacing w:before="160" w:after="80" w:line="240" w:lineRule="exact"/><w:pBdr><w:bottom w:val="single" w:sz="3" w:space="2" w:color="{NAVY}"/></w:pBdr><w:outlineLvl w:val="0"/></w:pPr><w:rPr><w:b/><w:color w:val="{NAVY}"/><w:sz w:val="22"/></w:rPr></w:style>
+<w:style w:type="paragraph" w:styleId="Row"><w:name w:val="Row"/><w:basedOn w:val="Normal"/><w:pPr><w:keepLines/><w:tabs><w:tab w:val="right" w:pos="10656"/></w:tabs><w:spacing w:after="60"/></w:pPr></w:style>
+<w:style w:type="paragraph" w:styleId="Sub"><w:name w:val="Sub"/><w:basedOn w:val="Row"/><w:pPr><w:spacing w:after="120" w:line="240" w:lineRule="exact"/></w:pPr><w:rPr><w:sz w:val="20"/></w:rPr></w:style>
 <w:style w:type="paragraph" w:styleId="Citation"><w:name w:val="Citation"/><w:basedOn w:val="Normal"/><w:pPr><w:keepLines/><w:ind w:left="240" w:hanging="240"/></w:pPr></w:style>
 </w:styles>'''
 section = '<w:sectPr><w:footerReference w:type="default" r:id="rFooter"/><w:pgSz w:w="12240" w:h="15840"/><w:pgMar w:top="691" w:right="792" w:bottom="720" w:left="792" w:header="288" w:footer="360"/></w:sectPr>'
